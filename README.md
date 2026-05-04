@@ -1,5 +1,8 @@
 # llm-failover-router-demo
 
+![License](https://img.shields.io/github/license/XidaoApi/llm-failover-router-demo) ![Stars](https://img.shields.io/github/stars/XidaoApi/llm-failover-router-demo?style=social) ![Last Commit](https://img.shields.io/github/last-commit/XidaoApi/llm-failover-router-demo) [![Release](https://img.shields.io/github/v/release/XidaoApi/llm-failover-router-demo)](https://github.com/XidaoApi/llm-failover-router-demo/releases)
+
+
 OpenAI-compatible routing and failover examples for teams that want a practical starting point for reliability work: fallback between models, health-aware routing, retry boundaries, and a simple latency/cost-minded strategy.
 
 Repo: https://github.com/XidaoApi/llm-failover-router-demo
@@ -41,7 +44,7 @@ python examples/basic_fallback.py
 ## Environment
 
 ```env
-OPENAI_API_KEY=your_key
+OPENAI_API_KEY=***
 OPENAI_BASE_URL=https://global.xidao.online/v1
 PRIMARY_MODEL=gpt-4.1-mini
 FALLBACK_MODEL=gpt-4o-mini
